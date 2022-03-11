@@ -1536,7 +1536,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 6.28
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -14520,11 +14520,11 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 8
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!114 &1935031822
 MonoBehaviour:
@@ -14563,6 +14563,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4164996101231807065, guid: 55a086cb86a6e774bae38bace4b1789f, type: 3}
+      propertyPath: jumpSpeed
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 4907223190961124862, guid: 55a086cb86a6e774bae38bace4b1789f, type: 3}
       propertyPath: m_Name
       value: Ginger(Player)
